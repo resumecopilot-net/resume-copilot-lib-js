@@ -1,15 +1,23 @@
 {
-  "name": "npm",
+  "name": "resume-copilot-lib-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["resume-copilot-lib", "job-search", "job-api", "typescript"],
+  "author": "ResumeCopilot <support@resumecopilot.net>",
+  "license": "MIT",
+  "description": "A JavaScript library to interact with the Resume Copilot API, allowing job search integration into applications.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resumecopilot-net/resume-copilot-lib-js"
+  },
+  "bugs": {
+    "url": "https://github.com/resumecopilot-net/resume-copilot-lib-js/issues"
+  },
+  "homepage": "https://resumecopilot.net/",
   "dependencies": {
     "axios": "^1.8.1"
   },
